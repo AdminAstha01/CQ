@@ -1,6 +1,6 @@
 # CQ
 
-<img alt="alt-gambar" width="800" src=".resources/gambar.png">
+<img alt="CQ" width="800" src=".resources/banner.png">
 
 ## Table of Contents
 
