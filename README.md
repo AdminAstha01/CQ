@@ -6,33 +6,32 @@
 
 - [The Vision](#the-vision)
 - [A different kind of MMORPG.](#a-different-kind-of-mmorpg)
-- [Overview:](#overview)
+- [Overview](#overview)
 - [CQ’s CORE PILLARS](#cqs-core-pillars)
 - [GAME CORELOOP](#game-coreloop)
 - [OFF-CHAIN \& ON-CHAIN MMORPG](#off-chain--on-chain-mmorpg)
-- [The differences between OFF-CHAIN \& ON-CHAIN players:](#the-differences-between-off-chain--on-chain-players)
+    - [The differences between OFF-CHAIN \& ON-CHAIN players:](#the-differences-between-off-chain--on-chain-players)
 - [Why Web3 at CQ?](#why-web3-at-cq)
 - [“X\&Jean”, the MMORPG Engine behind CQ](#xjean-the-mmorpg-engine-behind-cq)
 - [Tokenomics](#tokenomics)
 - [How to play the Game?](#how-to-play-the-game)
-- [1. Account Setup:](#1-account-setup)
-- [2. Character Creation:](#2-character-creation)
-- [3. Tutorial and Base Exploration:](#3-tutorial-and-base-exploration)
-    - [Navigation:](#navigation)
-    - [Base Features:](#base-features)
-    - [Base Activities:](#base-activities)
-- [4. Battle in the Hunting Area:](#4-battle-in-the-hunting-area)
-- [5. First Time Play Experience](#5-first-time-play-experience)
+    - [1. Account Setup:](#1-account-setup)
+    - [2. Character Creation:](#2-character-creation)
+    - [3. Tutorial and Base Exploration:](#3-tutorial-and-base-exploration)
+        - [Navigation:](#navigation)
+        - [Base Features:](#base-features)
+        - [Base Activities:](#base-activities)
+    - [4. Battle in the Hunting Area:](#4-battle-in-the-hunting-area)
+    - [5. First Time Play Experience](#5-first-time-play-experience)
 - [Future Game Features](#future-game-features)
 - [Rarities](#rarities)
-- [Equipment (Weapon \& Armor \& C.H.A.I.N)](#equipment-weapon--armor--chain)
-- [Pets](#pets)
-- [Characters](#characters)
+    - [Equipment (Weapon \& Armor \& C.H.A.I.N)](#equipment-weapon--armor--chain)
+    - [Pets](#pets)
+    - [Characters](#characters)
 - [Interoperability between Astha Games Titles](#interoperability-between-astha-games-titles)
-- [Project MM](#project-mm)
-- [Project AR](#project-ar)
-- [Project PLKR](#project-plkr)
-- [Economy Policy](#economy-policy)
+    - [Project MM](#project-mm)
+    - [Project AR](#project-ar)
+    - [Project PLKR](#project-plkr)
 - [Astha Studio Team](#astha-studio-team)
 - [FAQ](#faq)
 
@@ -57,7 +56,7 @@ It's no longer a secret that SEA gamers community are one of the most passionate
 
 Both Free2Play and Passionate Investing players are both strong in SEA market and therefore the universe of Chain Quadrant is created to cater them in a world setting that they are already familiar with, but at the same time feels so fresh and new.
 
-## Overview:
+## Overview
 -	Free2Play MMORPG with Southeast Asian gamers demographic in mind.
 -	Narrative driven Quests with some comedic storyline approach.
 -	No Pay-to-Win philosophy, all players must fight their way up all the same.
