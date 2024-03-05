@@ -5,12 +5,17 @@ The Vision
 Through ages, human being is wired to always find a way to explore FUN and that raw motivation is why a GAME is created. In the beginning, there was only a simple traditional game but then we, human being keeps coming up with a new way to create a new form of FUN. Now 2 millennia later, we already arrived at the age of Video games.
 
 From a simple pixel that represents a tennis ball to a humble mustachio plumber who must jump around to save a damsel in distress and finally came along the advent of a new massive social interactive game genre that was later known as the MMORPG.
-And here we are, as a firm believer in MMORPG media, we fully believe that such genre is an endless frontier to explore FUN. Not only as a social platform where player can enjoy their memorable adventure together, but as a media to explore a brand-new world that is always exciting and FUN. Now…allow us to take you to our world, a new MMORPG world that inspired from Southeast Asian region with some cyberpunk & sci-fi twist, a universe that we called the “Chain Quadrant”.
+And here we are, as a firm believer in MMORPG media, we fully believe that such genre is an endless frontier to explore FUN. Not only as a social platform where player can enjoy their memorable adventure together, but as a media to explore a brand-new world that is always exciting and FUN. 
+
+Now…allow us to take you to our world, a new MMORPG world that inspired from Southeast Asian region with some cyberpunk & sci-fi twist, a universe that we called the “Chain Quadrant”.
 
 A different kind of MMORPG.
+
 Most MMORPGs that are available in the market right now are usually using medieval fantasy theme or a generic sci-fi as their go-to setting. 
 However, in the world of Chain Quadrant, the game is taking its inspiration from different sources. From old classic anime such as “Cowboy Bebop” where the bounty hunter story narrative is accompanied with awesome Jazz soundtrack and a classic MMORPG gameplay approach from the 2000’s era like Ragnarok Online, SEAL Online and Runescape. 
+
 It's no longer a secret that SEA gamers community are one of the most passionate gamers around and the promising SEA market has been known to draw many well-known game studios to target SEA gamers in the past couple of years now. And for that reason, the game will also be crafted with Southeast Asian (SEA) gamer demographic in mind. With the universe of Chain Quadrant, we also hope that the SEA player can embrace their Southeast Asian heritage from a new perspective and find their beloved cities with some Cyberpunk twist.
+
 Both Free2Play and Passionate Investing players are both strong in SEA market and therefore the universe of Chain Quadrant is created to cater them in a world setting that they are already familiar with, but at the same time feels so fresh and new.
 
 Overview:
@@ -46,13 +51,18 @@ GAME CORELOOP
 4.	Exchange your DIPS & Materials to upgrade your equipment.
 5.	Level Up, Upgrade Skills and ready for more challenging Quests
 6.	Back to number 1.
+
 OFF-CHAIN & ON-CHAIN MMORPG
+
 Chain Quadrant (CQ) will be able to be played in both OFF-CHAIN and ON-CHAIN, meaning that the player chooses to play the game without NFT or connecting into their crypto wallet, it still possible for them to play CQ nevertheless.
-Without the web3 elements, the player will be playing in OFF-CHAIN mode. These OFF-CHAIN players will still be able to enjoy the game’s many features, however, they can only access normal type of equipment, pets, cosmetics, and some exclusive dungeons might not be accessible to them.
+
+Without the web3 elements, the player will be playing in OFF-CHAIN mode. These OFF-CHAIN players will still be able to enjoy the game’s many features, however, they can only access normal type of equipment, pets, cosmetics, and some exclusive dungeons might not be accessible to them. 
+
 In other hand, ON-CHAIN player that purchased special NFT collectibles and connecting their crypto wallet might have a special access to different type of special premium equipment, premium pets, cosmetics with its unique traits.
 The unique traits are mainly cosmetics and has its special lore within the CQ Universe and has a slightly better stats compared to their normal counterpart.
 
 The differences between OFF-CHAIN & ON-CHAIN players:
+
 OFF-CHAIN mode	ON-CHAIN mode
 In-Game Dips (name of the in-game currency)	($TOKENNAME)
 Normal Weapons	Premium Cosmetic Weapon & Armor with lore
@@ -61,7 +71,9 @@ Normal Pets, “Drone”	Premium Emotes
 Normal Emotes	Spaceship “Land” NFT
 
 Why Web3 at CQ?
+
 MMORPG & Simulation genre is the best game genre candidate for Web3 features implementation.
+
 •	Various high-level equipment or characters that can be converted to NFT.
 •	Special NFT that can unlock special access / features.
 •	CQ’s & MM’s NFT Interoperability can be use at future Astha games.
@@ -97,6 +109,7 @@ o	Big $TOKEN holder can decide the game’s next big features.
 
  
 How to play the Game?
+
 User Guide: Navigating the Web3 MMORPG
 This guide will provide you with a comprehensive overview for the gameplay experience on mobile (Android and iOS). The game screen orientation will be using horizontal orientation.
 
