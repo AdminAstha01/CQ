@@ -44,7 +44,9 @@
 Through ages, human being is wired to always find a way to explore FUN and that raw motivation is why a GAME is created. In the beginning, there was only a simple traditional game but then we, human being keeps coming up with a new way to create a new form of FUN. Now 2 millennia later, we already arrived at the age of Video games.
 
 From a simple pixel that represents a tennis ball to a humble mustachio plumber who must jump around to save a damsel in distress and finally came along the advent of a new massive social interactive game genre that was later known as the MMORPG.
-And here we are, as a firm believer in MMORPG media, we fully believe that such genre is an endless frontier to explore FUN. Not only as a social platform where player can enjoy their memorable adventure together, but as a media to explore a brand-new world that is always exciting and FUN. Now…allow us to take you to our world, a new MMORPG world that inspired from Southeast Asian region with some cyberpunk & sci-fi twist, a universe that we called the “Chain Quadrant”.
+And here we are, as a firm believer in MMORPG media, we fully believe that such genre is an endless frontier to explore FUN. Not only as a social platform where player can enjoy their memorable adventure together, but as a media to explore a brand-new world that is always exciting and FUN. 
+
+Now…allow us to take you to our world, a new MMORPG world that inspired from Southeast Asian region with some cyberpunk & sci-fi twist, a universe that we called the “Chain Quadrant”.
 
 ## A different kind of MMORPG.
 Most MMORPGs that are available in the market right now are usually using medieval fantasy theme or a generic sci-fi as their go-to setting. 
