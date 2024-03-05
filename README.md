@@ -269,10 +269,8 @@ From CQ: Unlock special “Power Up” shoes that will double steps count for an
 ### Project PLKR
 At CQ: New Area Access, “the Mall” where the player will be able to meet some characters from PLKR and access new Quests from them.
 
+
 From CQ: New Accessories & Pets for PLKR characters.
-
-## Economy Policy
-
  
 ## Astha Studio Team
 Astha Studio Team are consisting of different talents that already working at both video games and entertainment industries for 15++ years and counting. The team realized that they are first gamer, before becoming developers and “FUN” will be always the core above all else.
