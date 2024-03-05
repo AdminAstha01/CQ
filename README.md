@@ -1,4 +1,4 @@
-# CQ
+# Project "CQ"
 
 <img alt="CQ" width="800" src=".resources/banner.png">
 
