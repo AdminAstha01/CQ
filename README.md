@@ -68,7 +68,7 @@ Both Free2Play and Passionate Investing players are both strong in SEA market an
 
 ## CQ’s CORE PILLARS
 -	Web “Agnostic” Game, can be played in both OFF-CHAIN and ON-CHAIN.
--	Web3 is optional, but encouraged.
+-	Web3 is optional, but highly encouraged.
 -	NFT Interoperability, can be used at other Astha’s game title.
 
 Until recently, the Web3 Gaming trends still having its up and down and our team acknowledge that the adaptation and adjustment for ordinary Web2 / Traditional gamers to be able to jump into the Web3 gaming scene still have its many shares of challenges. 
@@ -102,7 +102,7 @@ The unique traits are mainly cosmetics and has its special lore within the CQ Un
 ### The differences between OFF-CHAIN & ON-CHAIN players:
 | OFF-CHAIN mode |	ON-CHAIN mode |
 | --- | --- |
-| In-Game Dips (name of the in-game currency)	| ($TOKENNAME) |
+| In-Game Dips (name of the in-game currency)	| ($CQUAD) |
 | Normal Weapons	| Premium Cosmetic Weapon & Armor with lore |
 | Normal Armor Set	| Premium Drone “Pets” with lore |
 | Normal Pets, “Drone”	| Premium Emotes |
@@ -144,7 +144,7 @@ Astha Studio will offer ITO (Initial Token Offering) and proposed DAO (Decentral
 -	Interoperability NFTs
     -	can be used at other Astha titles (MM, PLKR, future titles)
 -	Decentralized Autonomous Organization (DAO) opportunity.
-    -	Big $TOKEN holder can decide the game’s next big features.
+    -	Big $CQUAD holder can decide the game’s next big features.
 
 ## How to play the Game?
 **User Guide: Navigating the Web3 MMORPG**
@@ -180,7 +180,7 @@ Arrive at the base, a secure zone free from monsters, where various activities a
 -	**Stories**: Uncover the rich narrative behind the game world.
 -	**Ranking**: Compare your achievements with fellow players.
 -	**Guild**: Form alliances and collaborate with other players.
--	**Item Mall**: Acquire usable items, subscriptions, costumes, and lucky boxes using CP (in-game currency purchasable with real money).
+-	**Item Mall**: Acquire usable items, subscriptions, costumes, and lucky boxes using $CQUAD (in-game currency purchasable with real money).
 -	**Profile**: Access your character profile, including Dips (in-game currency), email, server, user ID, and subscription details.
 -	**Settings**:
     -	**Gameplay**: Customize language, minimap rotation, camera inversion, notifications, and sensitivity.
@@ -234,7 +234,7 @@ Engage in battles against various monsters in hunting areas, each featuring diff
 
 ## Future Game Features
 -	“Land” Spaceship NFT: Bounty Hunter Base of Operation, bonus upgrade from your own “base”
--	“Reputation”: Only Bounty Hunter with stellar reputation can withdraw $TOKEN produced from their journey.
+-	“Reputation”: Only Bounty Hunter with stellar reputation can withdraw $CQUAD produced from their journey.
 -	High level Equipment Minting to NFT: Once an equipment reaches “+20” status, the player can decide to mint that equipment to become an NFT.
 -	High level Characters Minting to NFT: Once the character reaches Level 60, the player can decide to mint their character to become an NFT.
 
