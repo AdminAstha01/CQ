@@ -84,10 +84,10 @@ The transition is hoped to be smooth and voluntarily as we don’t want to force
 
 ## GAME CORELOOP
 1.	Get the Narrative Quest for your target from “Faction” party. 
-2.	Hunt Criminal Target to get your reward and in-game money, “DIPS”
+2.	Hunt Criminal Target to get your reward and in-game money, “DIPS” or "$CQUAD" token as its premium currency.
 3.	While hunting, you will gain some materials for your weapon upgrade.
-4.	Exchange your DIPS & Materials to upgrade your equipment.
-5.	Level Up, Upgrade Skills and ready for more challenging Quests
+4.	Exchange your DIPS & Materials to upgrade your standard equipment and for Premium Equipment will require "$CQUAD" as the main payment method.
+5.	Level Up, Upgrade Skills and ready for more challenging Quests as new area within Chain Quadrant will be unlocked.
 6.	Back to number 1.
 
 ## OFF-CHAIN & ON-CHAIN MMORPG
@@ -102,7 +102,7 @@ The unique traits are mainly cosmetics and has its special lore within the CQ Un
 ### The differences between OFF-CHAIN & ON-CHAIN players:
 | OFF-CHAIN mode |	ON-CHAIN mode |
 | --- | --- |
-| In-Game Dips (name of the in-game currency)	| ($CQUAD) |
+| In-Game Dips (name of the in-game currency)	| ($CQUAD) Token as premium currency |
 | Normal Weapons	| Premium Cosmetic Weapon & Armor with lore |
 | Normal Armor Set	| Premium Drone “Pets” with lore |
 | Normal Pets, “Drone”	| Premium Emotes |
