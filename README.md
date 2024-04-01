@@ -52,9 +52,9 @@ Most MMORPGs that are available in the market right now are usually using mediev
 
 However, in the world of Chain Quadrant, the game is taking its inspiration from different sources. From old classic anime such as “Cowboy Bebop” where the bounty hunter story narrative is accompanied with awesome Jazz soundtrack and a classic MMORPG gameplay approach from the 2000’s era like Ragnarok Online, SEAL Online and Runescape. 
 
-It's no longer a secret that SEA gamers community are one of the most passionate gamers around and the promising SEA market has been known to draw many well-known game studios to target SEA gamers in the past couple of years now. And for that reason, the game will also be crafted with Southeast Asian (SEA) gamer demographic in mind. With the universe of Chain Quadrant, we also hope that the SEA player can embrace their Southeast Asian heritage from a new perspective and find their beloved cities with some Cyberpunk twist.
+It's no longer a secret that Southeast Asian (SEA) gamers community are one of the most passionate gamers around and the promising SEA market has been known to draw many well-known game studios to target SEA gamers in the past couple of years now. And for that reason, the game will also be crafted with SEA gamer demographic in mind. With the universe of Chain Quadrant, we also hope that the SEA player can embrace their Southeast Asian heritage from a new perspective and find their beloved cities with some Cyberpunk twist.
 
-Both Free2Play and Passionate Investing players are both strong in SEA market and therefore the universe of Chain Quadrant is created to cater them in a world setting that they are already familiar with, but at the same time feels so fresh and new.
+Both Free2Play and Passionate Investing players are both strong in SEA market and therefore the universe of Chain Quadrant is created to cater them in a world setting that they are already familiar with, but at the same time feels so fresh and new for other Global region player.
 
 ## Overview
 -	Free2Play MMORPG with Southeast Asian gamers demographic in mind.
@@ -68,7 +68,7 @@ Both Free2Play and Passionate Investing players are both strong in SEA market an
 
 ## CQ’s CORE PILLARS
 -	Web “Agnostic” Game, can be played in both OFF-CHAIN and ON-CHAIN.
--	Web3 is optional, but highly encouraged.
+-	Web3 is optional, but HIGHLY encouraged.
 -	NFT Interoperability, can be used at other Astha’s game title.
 
 Until recently, the Web3 Gaming trends still having its up and down and our team acknowledge that the adaptation and adjustment for ordinary Web2 / Traditional gamers to be able to jump into the Web3 gaming scene still have its many shares of challenges. 
@@ -233,7 +233,7 @@ Engage in battles against various monsters in hunting areas, each featuring diff
 15.	And after that, the player can start hunting other new criminals from the bounty hunter board again and upgrade their equipment along the way at the BHG.
 
 ## Future Game Features
--	“Land” Spaceship NFT: Bounty Hunter Base of Operation, bonus upgrade from your own “base”
+-	“Land” Spaceship NFT: Bounty Hunter Base of Operation, bonus upgrade from your own “base” and use special your "Cri.T (Criminal Tracker) radar" to track your bounties earlier. (as long you keep upgrading your ship's Cri.T Radar)
 -	“Reputation”: Only Bounty Hunter with stellar reputation can withdraw $CQUAD produced from their journey.
 -	High level Equipment Minting to NFT: Once an equipment reaches “+20” status, the player can decide to mint that equipment to become an NFT.
 -	High level Characters Minting to NFT: Once the character reaches Level 60, the player can decide to mint their character to become an NFT.
