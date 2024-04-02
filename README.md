@@ -1,4 +1,4 @@
-# Project "CQ"
+# Project Chain Quadrant "CQ" 
 
 <img alt="CQ" width="800" src=".resources/banner.png">
 
