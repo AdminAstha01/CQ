@@ -357,6 +357,9 @@ Engage in battles against various monsters in hunting areas, each featuring diff
 13.	Once the boss is defeated, the player will use their D.O.P.E to capture the criminal.
 14.	The Player then needs to get back to the bounty hunter board list at CQPD where they put their D.O.P.E inside the machine and in return, they’ll get their bounty hunting reward.
 15.	And after that, the player can start hunting other new criminals from the bounty hunter board again and upgrade their equipment along the way at the BHG.
+16.	At later stage, the bounty target will be moving from one area to another at random time after they get enough damage.
+17.	However,if the player has the "Spaceship" NFT, the CriT radar from their spaceship can help determine where & when the bounty target will appear next.
+18.	The Bounty Target HP will be quite high and only player that has contribute the highest damage (by keep tracking their bounty till the end) that can catch the bounty after the bounty target is incapacitated.   
 
 ## Future Game Features
 -	“Land” Spaceship NFT: Bounty Hunter Base of Operation, bonus upgrade from your own “base” and use special your "Cri.T (Criminal Tracker) radar" to track your bounties earlier. (as long you keep upgrading your ship's Cri.T Radar)
