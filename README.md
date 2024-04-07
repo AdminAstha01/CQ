@@ -177,7 +177,178 @@ When it comes to managing game data, speed and efficiency are paramount. That's 
 
 In the context of our MMORPG, the use of FlatBuffers means that game data is processed as quickly as possible, reducing latency, which is crucial for real-time player interaction and game mechanics. This gives us an edge over competing games that may use slower serialization methods, enhancing our game's performance and the overall user experience.
 
-By incorporating FlatBuffers into our architecture, we ensure that our game is not just fast and responsive but also stands out in the competitive landscape due to its advanced use of technology.
+By incorporating FlatBuffers into our architecture, we ensure that our game is not just fast and responsive but also stands out in the competitive landscape due to its advanced use of technology. Here is our Character.fbs:
+
+```
+namespace UDP;
+
+/// if 'state' is 0 (default), then Destroy that Char_id object (remove Character from render)
+table Character {
+   char_id: int = 0;
+   x: float = 0.0;
+   z: float = 0.0;
+   rotation: float = 0.0;
+   state: byte = 0;
+
+   full: Full;
+   chat: Chat;
+   xtra: Xtra;
+   pet: Pet;
+   group: Group;
+
+   base: Base;
+
+   war: War;
+   fitness: Fitness;
+   subs_info: SubsInfo;
+   buff_info: BuffInfo;
+   skill_cd: SkillCD;
+   potion_cd: PotionCD;
+   xv_cd: XVskillCD;
+   pet_milisec: int = -1;
+   pot_id_used: byte = -1;
+   reward: Reward;
+
+   is_friend: bool = false;
+}
+
+/// if 'username' is NULL (default), then just ignore all of the rest (no change)
+table Full {
+   username: string;
+   weapon_id: short = -1;
+   weapon_plus: byte = -1;
+   head_id: short = -1;
+   head_plus: byte = -1;
+   body_id: short = -1;
+   body_plus: byte = -1;
+   foot_id: short = -1;
+   foot_plus: byte = -1;
+   accessory_id: short = -1;
+   accessory_plus: byte = -1;
+   pet_id: byte = -1;
+   gender: byte = -1;
+   style: byte = -1;
+   job_id: byte = -1;
+   xvolve_id: byte = -1;
+}
+
+/// if new 'at' is changed from previous 'at': means update. but if 'at' is just the same then ignore update
+table Chat {
+   at: byte = -1;
+   message: string;
+   type: byte = 0;
+}
+
+/// if zero (0) means: just ignore (no change)
+table Xtra {
+   map_id: short = 0;
+   time: byte = 0;
+   ep_move: short = 0;
+   level: short = 0;
+   game_master: string;
+}
+
+/// for each parameter which has value -1 (default): means ignore (nothing updated) for that parameter
+table Pet {
+   is_mount: byte = -1;
+   is_hungry: byte = -1;
+}
+
+/// if 'group_timestamp' is 0 (default): means ignore (no need to refresh API /group)
+table Group {
+   group_timestamp: byte = 0;
+   invitation_group: int = 0;
+   invitation_username: string;
+   is_leader: bool = false;
+   group_member: byte;
+   group_max: byte;
+}
+
+/// only used when in Base, if 'at' is -1 (default): means ignore (nothing updated)
+table Base {
+   at: byte = -1;
+   shop_id: short = 0;
+   vending_title: string;
+   fishing_spot_id: byte = 0;
+   fish_caught: byte = -1;
+}
+
+/// starting from War to bottom is ONLY used when in Battle/PVP. Just ignore when in Base
+/// but only War will always sent by server
+table War {     
+   state: short = 1;
+   lock_id: int = 0;
+   number: int = 0;
+   damage_type: byte = 0;
+   is_stun: bool;
+   is_burn: bool;
+   is_tired: bool;
+   is_venom: bool;
+   is_slow: bool;
+   is_weaken: bool;
+   is_dazzle: bool;
+   is_buff: bool;
+   enhance_id: byte = 0;
+}
+/// damage_type = 1:miss, 5:block, 10:crit, 8:effective, 9:ineffective, 18:crit-effect, 19:crit-ineffect
+
+/// only used when in Battle/PVP.
+table Fitness {     
+   hp: int;
+   mp: short;
+   ep: short;
+   max_hp: int;
+}
+
+/// for each parameter which has value 0: means don't show (hidden) for that attribute
+table SubsInfo {
+   exp_percent: byte;
+   rate_percent: byte;
+   party_percent: byte;
+}
+
+/// for each parameter which has value 0: means don't show blue +plus for that attribute
+table BuffInfo {
+   hp: short;
+   mp: short;
+   atk: short;
+   mgc: short;
+   def: short;
+   crt: short;
+   acc: short;
+   eva: short;
+}
+
+/// if not NULL = update Skills’ Cooldown by Miliseconds left (match index by id)
+table SkillCD {
+   id: [ubyte];
+   milisec: [int];
+}
+
+/// if not NULL = update Potions’ Cooldown by Miliseconds left (match index by id)
+table PotionCD {
+   id: [ubyte];
+   milisec: [int];
+   stock: [short];
+}
+
+/// if not NULL = update Xvolve Skills’ Cooldown by Miliseconds left (match index by id)
+table XVskillCD {
+   id: [ubyte];
+   milisec: [int];
+}
+
+/// only show EXP bar if 'exp' & 'coin' are not 0. but always update 'exp_bar' every time received
+table Reward {
+   exp: [int];
+   coin: [int];
+   item_id: [byte];
+   item_qty: [byte];
+   exp_bar: float;
+}
+
+root_type Character;
+```
 
 ## Optimized Data Flow and Caching Strategy
 
@@ -422,7 +593,7 @@ Ronald Widjaya always believes video games as the leading & powerful Entertainme
 
 Juleo Barakutama (CTO)
 
-Born in Pontianak, an avid gamer ever since he was at high school. Juleo decided to study on how to make video games out of his love towards the media. The time, he started developing his own game, he realized that the nostalgic element of a classic MMORPG is something that the market still interested in. Hence, his journey started to create an MMORPG engine that are versatile yet lightweight. 
+Born in Jakarta, an avid gamer ever since he was at high school. Juleo decided to study on how to make video games out of his love towards the media. The time, he started developing his own game, he realized that the nostalgic element of a classic MMORPG is something that the market still interested in. Hence, his journey started to create an MMORPG engine that are versatile yet lightweight. 
 
 
 
