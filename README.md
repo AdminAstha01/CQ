@@ -162,6 +162,7 @@ Our game world is segmented into various maps, each supported by multiple dedica
 The system is designed with elasticity in mind, leveraging cloud services that allow our micro-servers to automatically adjust their resource allocations based on the current demand. This means that during peak times, servers can seamlessly scale up to maintain performance, and scale down during off-peak hours to conserve resources.
 
 ## Data Handling and Communication
+<img alt="CQ" width="800" src=".resources/IMG_7594.jpeg">
 
 ### FlatBuffers
 
@@ -194,6 +195,8 @@ Our system architecture uses Redis as the front-line database to facilitate rapi
 - Read Operations: When a user requests data, the system first checks Redis. If the data is present (a cache hit), it's returned immediately, avoiding slower database lookups.
 - Cache Miss and MySQL Lookup: If the requested data is not found in Redis (a cache miss), the system retrieves it from the persistent MySQL database. This operation has higher latency but is minimized in frequency.
 - Data Caching Duration: Once the data is retrieved from MySQL, it is stored in Redis for one hour. This caching strategy significantly reduces the read load on MySQL, as subsequent access to this data within the hour will hit the cache in Redis.
+
+<img alt="CQ" width="800" src=".resources/IMG_7592.jpeg">
 
 ## Write Operations and Batch Update Mechanism
 
