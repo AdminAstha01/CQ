@@ -151,13 +151,13 @@ Besides the standard MMORPG function, such as Quests and Loot Hunting, the engin
 -	Auction (rare new items generated from game, or tax for P2P)
 -	Optional tournamentsâ€™ tickets.
 
-## In-Depth System Architecture for Our MMORPG
+# In-Depth System Architecture for Our MMORPG
 
-### Server and Map Design
+## Server and Map Design
 
 Our game world is segmented into various maps, each supported by multiple dedicated micro-servers. This distributed approach ensures that high player activity in one map does not negatively impact the performance of other maps. Each micro-server can be scaled independently to accommodate varying player loads, ensuring optimal resource allocation and minimizing latency.
 
-### Performance and Maintenance Strategy
+## Performance and Maintenance Strategy
 
 The system is designed with elasticity in mind, leveraging cloud services that allow our micro-servers to automatically adjust their resource allocations based on the current demand. This means that during peak times, servers can seamlessly scale up to maintain performance, and scale down during off-peak hours to conserve resources.
 
@@ -350,13 +350,13 @@ table Reward {
 root_type Character;
 ```
 
-## Optimized Data Flow and Caching Strategy
+# Optimized Data Flow and Caching Strategy
 
-### Redis
+## Redis
 
 Fine tuned Redis serves as our in-memory data store, functioning as a cache to handle frequent data access requests. When a piece of data is not present in Redis, it falls back to MySQL. Retrieved data is then stored in Redis for a set duration, reducing future access times and decreasing the load on the MySQL database.
 
-### MySQL
+## MySQL
 
 MySQL is the backbone for our durable data storage. While Redis excels at speed, MySQL provides the reliability of a persistent storage system. By leveraging MySQL's robustness, we can ensure that user data and game state are consistently maintained.
 
@@ -380,9 +380,11 @@ By using this layered approach with Redis as a caching layer and MySQL for persi
 
 This setup provides a responsive gaming experience where the heavy lifting of data management is abstracted away, allowing players to immerse themselves in the game world without interruption.
 
-## Game Content Management and Updates
+# Game Content Management and Updates
 
 In our MMORPG, we have a plethora of assets that constitute the game's universeâ€”everything from character equipment, hairstyles, monster models, maps, background musics, icons, to the descriptive text for various in-game items and lore. These assets are dynamic and frequently updated to keep the game fresh, engaging, and free from bugs.
+
+<img alt="CQ" width="800" src=".resources/IMG_7599.jpeg">
 
 ## Storage and Retrieval of Assets
 
@@ -391,7 +393,7 @@ In our MMORPG, we have a plethora of assets that constitute the game's universeâ
     - Every time an asset is updated or added, it's assigned a new epoch timestamp, marking the precise moment of its creation or update.
     - The server maintains a manifest of assets with their corresponding epoch timestamps, effectively creating a version history.
 
-## Content Update Mechanism on Devices
+### Content Update Mechanism on Devices
 - Device Sync Check: When a player's device connects to the server, a sync check is initiated. The device sends its local asset manifest â€” a list of assets currently stored on the device along with their epoch timestamps â€” to the server.
 - Determining Updates: The server compares the device's manifest against the latest server manifest. If it finds that the server has newer epoch timestamps for certain assets, it flags those assets as outdated on the device.
 - Updating Process:
@@ -399,7 +401,7 @@ In our MMORPG, we have a plethora of assets that constitute the game's universeâ
     - This ensures that the device only downloads the assets that have changed since the last update, saving on bandwidth and speeding up the update process.
 - Partial Updates: If the game is live when updates are being pushed, our system is designed to perform partial updates. This means that only the assets that have been changed or added are downloaded in the background without requiring a full game update or restart.
 
-## Benefits of Using Epoch Timestamps for Updates
+### Benefits of Using Epoch Timestamps for Updates
 - Efficiency: This method is bandwidth-efficient since only the assets that are new or have been changed are transmitted to the user's device.
 - Speed: It's a time-saving process, as players can continue playing the game while the update is happening in the background.
 - Accuracy: Epoch timestamps provide a simple yet accurate way to ensure all players are on the latest version of the game content without confusion.
@@ -407,10 +409,10 @@ In our MMORPG, we have a plethora of assets that constitute the game's universeâ
 
 By utilizing epoch timestamps to manage content updates, we ensure that our players experience the latest and greatest our game has to offer with minimal interruption. This method also maintains consistency across the game's ecosystem, ensuring every player has access to the same version of game assets.
 
-## Real-Time Engagement and Security
+# Real-Time Engagement and Security
 Our platform employs a sophisticated approach to maintaining user engagement while also ensuring secure transactions through two key technologies: Memcached and a Push Notification System. Hereâ€™s how they work in tandem:
 
-### Memcached for Security and Performance
+## Memcached for Security and Performance
 - Security: Memcached is utilized to generate and store temporary, randomized tokens for users. These tokens are essential for verifying user actions within the game, providing a layer of security for transactions or any in-game changes that are sensitive.
 - Performance: Given that Memcached is an in-memory caching system, it offers high-speed data retrieval, which is critical for operations that need to happen in real time, like in-game purchases or event participation. Its volatile nature ensures that the tokens are only available for a short period, reducing the risk of unauthorized use.
 
@@ -418,7 +420,7 @@ Our platform employs a sophisticated approach to maintaining user engagement whi
 - Engagement: The push notification system is engineered to deliver real-time communication to players. By sending notifications with unique, randomized codes directly to the user's device, the game can initiate specific actions such as opening new game levels, awarding daily bonuses, or starting limited-time events.
 - Seamless User Experience: When a notification is received, the embedded code interacts with the game client to perform the intended action without the need for manual user input. This creates a seamless and interactive user experience, keeping players connected and immersed in the game world.
 
-## Synergy Between Memcached and Push Notifications
+### Synergy Between Memcached and Push Notifications
 The integration between Memcached and the push notification system establishes a robust framework for real-time engagement:
 - When a critical operation is needed, a token is generated in Memcached and associated with a specific action.
 - A push notification containing the corresponding code is sent to the user's device.
