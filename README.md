@@ -578,7 +578,7 @@ At CQ: New Area Access, “the Mall” where the player will be able to meet som
 
 From CQ: New Accessories & Pets for PLKR characters.
  
-## Astha Studio Team
+## Asthaverse Studio Team
 Astha Studio Team are consisting of different talents that already working at both video games and entertainment industries for 15++ years and counting. The team realized that they are first gamer, before becoming developers and “FUN” will be always the core above all else.
 
 Our Ideals are simple, “to create a game so fun but fair at the same time” that if we are the player of that game, we don’t feel cheated by it. There are games to be developed and revenue to be made so we can keep going in developing FUN products but again we will always keep in mind to please the players that we hope can be our community fan base, especially in Southeast Asian region.
