@@ -52,7 +52,7 @@
     - [Project MM](#project-mm)
     - [Project AR](#project-ar)
     - [Project PLKR](#project-plkr)
-- [Astha Studio Team](#astha-studio-team)
+- [Asthaverse Studio Team](#astha-studio-team)
 - [FAQ](#faq)
 
 
